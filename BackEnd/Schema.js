@@ -1,5 +1,5 @@
 const { Schema, mongoose } = require("mongoose");
-
+//Create Mongoose Schema
 const schema = new Schema({
   Author: {
     type: String,
